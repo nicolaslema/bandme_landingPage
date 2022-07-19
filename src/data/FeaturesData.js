@@ -11,13 +11,13 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 export const featuresData = [
 	{
 		name: 'Best Security',
-		description: 'We offer the best data security to our clients, which makes us stand out',
+		description: 'modern security throughout the app to safeguard your privacy',
 		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'one',
 	},
 	{
 		name: 'Ease of Use',
-		description: 'Our system is easy to use and integrate',
+		description: 'easy to intuitive design for effective use',
 		icon: iconStyle(IoIosOptions),
 		imgClass: 'two',
 	},

@@ -2,10 +2,10 @@ export const heroOne = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Founded in 2012',
+		text: 'Funda in 2021',
 	},
-	headline: "We've been in business for 9 years",
-	description: 'We have designed and implemented the best cloud security solutions',
+	headline: "Connect with people with the same passion",
+	description: 'We have designed and implemented the best communication app for artists',
 	buttonLabel: 'Find More',
 	imgStart: 'start',
 	img: './assets/svg/band.jpg',
@@ -16,10 +16,10 @@ export const heroTwo = {
 	reverse: false,
 	inverse: false,
 	topLine: {
-		text: 'Designed & Developed',
+		text: 'Connect, Discover, Share',
 	},
-	headline: 'The best practices',
-	description: 'Our clients have had the best experience working with us',
+	headline: 'All your social media in one place',
+	description: 'Share the content of your favorite social media here',
 	buttonLabel: 'View Project',
 
 	linkTo: '/more',
@@ -32,12 +32,12 @@ export const heroThree = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Highly reputed brand',
+		text: 'Get to the top',
 	},
-	headline: 'Why us? ',
+	headline: 'Reach the sky ',
 	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
-	buttonLabel: 'View Project',
+		'connect with people, complete the band, and show what you are made of',
+	buttonLabel: 'info',
 
 	linkTo: '/download',
 	imgStart: '',

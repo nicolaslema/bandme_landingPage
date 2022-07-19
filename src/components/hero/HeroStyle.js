@@ -31,6 +31,16 @@ color: #00000;
 
 `;
 
+export const HeroText3 = styled.p`
+margin-bottom: 35px;
+font-size: clamp(0.5rem, 1vw, 1.3rem);
+line-height: 24px;
+text-align: center;
+letter-spacing: 2px;
+color: #00000;
+
+`;
+
 export const ButtonWrapper = styled.div`
 width: 100%;
 display: flex;
