@@ -1,29 +1,26 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
 
 const iconStyle = (Icon) => <Icon />;
 
 export const footerSocialData = [
-	{
-		name: 'Facebook',
-		icon: iconStyle(FaFacebook),
-	},
+	
 	{
 		name: 'Instagram',
 		icon: iconStyle(FaInstagram),
+		link: 'https://www.instagram.com'
 	},
 	{
 		name: 'YouTube',
 		icon: iconStyle(FaYoutube),
+		link: 'https://www.youtube.com'
 	},
 	{
 		name: 'Twitter',
 		icon: iconStyle(FaTwitter),
+		link: 'https://www.twitter.com'
 	},
-	{
-		name: 'LinkedIn',
-		icon: iconStyle(FaLinkedin),
-	},
+	
 ];
 
 export const footerData = [

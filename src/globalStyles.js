@@ -20,6 +20,7 @@ export const Container = styled.div`
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 50px;
+	
 	@media screen and (max-width: 960px) {
 		padding: 0 30px;
 	}
@@ -32,6 +33,7 @@ export const MainHeading = styled.h1`
 	width: 100%;
 	letter-spacing: 4px;
 	text-align: center;
+	
 `;
 
 export const Heading = styled.h2`
@@ -43,6 +45,7 @@ export const Heading = styled.h2`
 	letter-spacing: 0.4rem;
 	line-height: 1.06;
 	text-align: center;
+	
 	width: ${({ width }) => (width ? width : '100%')};
 `;
 export const TextWrapper = styled.span`
@@ -54,6 +57,7 @@ export const TextWrapper = styled.span`
 	margin: ${({ margin }) => (margin ? margin : '')};
 	margin-bottom: ${({ mb }) => (mb ? mb : '')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
+	
 `;
 export const Section = styled.section`
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
@@ -66,6 +70,7 @@ export const Section = styled.section`
 	height: ${({ height }) => (height ? height : 'auto')};
 	max-height: ${({ maxHeight }) => (maxHeight ? maxHeight : 'auto')};
 	min-height: ${({ minHeight }) => (minHeight ? minHeight : 'auto')};
+	
 	@media screen and (max-width: 768px) {
 		padding: ${({ smPadding }) => (smPadding ? smPadding : '70px 0')};
 	}

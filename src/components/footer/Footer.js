@@ -23,17 +23,17 @@ function Footer() {
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
 							<SocialIcon src="./assets/logo.png" />
-							Delta
+							BANDME
 						</FooterLogo>
 						<FooterAddress>
-							69 Street, Delta Building, US Road, Los Angeles 123
+							Argentina, Buenos Aires
 						</FooterAddress>
 
 						<Row align="center" margin="auto  0 0 0" gap="1rem">
 							{footerSocialData.map((social, index) => (
 								<FooterSocialIcon
 									key={index}
-									href="/"
+									href={social.link}
 									target="_blank"
 									aria-label={social.name}
 								>
@@ -53,7 +53,7 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>Delta © 2021</FooterRights>
+				<FooterRights>Bandme © 2021</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);
