@@ -35,6 +35,7 @@ const Navbar = () => {
 	const closeMobileMenu = (to, id) => {
 		if (id && location.pathname === '/') {
 			scrollTo(id);
+			setShow(false);
 		}
 
 		history.push(to);

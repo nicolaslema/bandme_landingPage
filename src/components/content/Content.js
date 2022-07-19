@@ -41,7 +41,7 @@ export const Content = ({
 	}, [inView, animation]);
 
 	return (
-		<Section inverse={inverse} ref={ref}>
+		<Section inverse={inverse} ref={ref} id="about">
 			<Container>
 				<ContentRow reverse={reverse}>
 					<ContentColumn>

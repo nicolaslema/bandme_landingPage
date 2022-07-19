@@ -39,7 +39,7 @@ export const Heading = styled.h2`
 	margin: ${({ margin }) => (margin ? margin : '')};
 	margin-bottom: ${({ mb }) => (mb ? mb : '')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
-	color: ${({ inverse }) => (inverse ? '$403ae3' : '#fff')};
+	color: ${({ inverse }) => (inverse ? 'coral' : '#00000')};
 	letter-spacing: 0.4rem;
 	line-height: 1.06;
 	text-align: center;
@@ -58,7 +58,7 @@ export const TextWrapper = styled.span`
 export const Section = styled.section`
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
 	margin: ${({ margin }) => (margin ? margin : '')};
-	background: ${({ inverse }) => (inverse ? 'white' : '#071c2f')};
+	background: ${({ inverse }) => (inverse ? 'white' : 'coral')};
 	position: ${({ position }) => (position ? position : '')};
 	width: ${({ width }) => (width ? width : 'auto')};
 	min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
