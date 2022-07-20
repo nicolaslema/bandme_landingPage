@@ -13,6 +13,8 @@ import {
     NavItem} from './NavbarStyle';
 import { useLocation, useNavigate  } from 'react-router-dom';
 import {data} from '../../data/NavbarData'
+import { Link } from 'react-router-dom';
+import {Button} from '../../globalStyles';
 
 const Navbar = () => {
     const [show, setShow] = useState(false);
@@ -61,6 +63,9 @@ const Navbar = () => {
 								</NavLinks>
 							</NavItem>
 						))}
+						<Link to="/more">
+						<Button>Info</Button>
+					</Link>
 					</NavMenu>
 				</NavbarContainer>
 			</Nav>

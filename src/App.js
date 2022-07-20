@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 //paginas
 import Home from "./pages/Home";
-import PricingPage from "./pages/PricingPage";
+import More from "./pages/More";
 import Navbar from '../src/components/navbar/Navbar';
 import Footer from "./components/footer/Footer";
 
@@ -15,7 +15,8 @@ function App() {
   <Navbar />
     <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="/pricing" element={<PricingPage/>}/>
+      <Route path="/more" element={<More/>}/>
+      <Route path="/Download" element={<More/>}/>
     </Routes>
 
     <Footer />

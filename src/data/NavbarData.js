@@ -5,12 +5,10 @@ export const data = [
 		text: 'About',
 		id: 'about',
 	},
+
 	{
-		to: '/pricing',
-		text: 'Pricing',
-	},
-	{
-		to: '/Download',
+		to: 'Download',
 		text: 'Download',
+		id: 'download'
 	},
 ];
