@@ -5,7 +5,7 @@ import {
 	TextWrapper,
 	TopLine,
 	Heading,
-	ContentButton,
+	//ContentButton,
 	Subtitle,
 	ImgWrapper,
 	Img,

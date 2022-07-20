@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {Button, Container, MainHeading} from '../../globalStyles';
-import {HeroSection, HeroText, ButtonWrapper, HeroButton, HeroText2, HeroText3, HeroAppsIcon} from './HeroStyle';
+import {HeroSection, HeroText, ButtonWrapper, HeroText2, HeroText3, HeroAppsIcon} from './HeroStyle';
 import {FaAppStoreIos,FaGooglePlay} from 'react-icons/fa'
 
 

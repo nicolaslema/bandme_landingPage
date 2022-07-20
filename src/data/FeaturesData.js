@@ -3,8 +3,8 @@ import React from 'react';
 
 import { BsFillShieldLockFill } from 'react-icons/bs';
 import { IoIosOptions } from 'react-icons/io';
-import { AiOutlineCloudUpload } from 'react-icons/ai';
-import { BiSupport, BiDollar } from 'react-icons/bi';
+
+import { BiDollar } from 'react-icons/bi';
 import {FaConnectdevelop} from 'react-icons/fa'
 import {CgSearchFound} from 'react-icons/cg'
 import { GrHostMaintenance } from 'react-icons/gr';

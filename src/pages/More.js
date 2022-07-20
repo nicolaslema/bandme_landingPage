@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import {Button, Container, MainHeading} from '../globalStyles';
-import {HeroSection, HeroText, ButtonWrapper, HeroButton, HeroText2, HeroText3} from '../components/hero/HeroStyle';
+
+import { Container, MainHeading} from '../globalStyles';
+import {HeroSection, HeroText, HeroText3} from '../components/hero/HeroStyle';
 
 
 const More = () => {
