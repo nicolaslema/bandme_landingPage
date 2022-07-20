@@ -49,7 +49,7 @@ const Navbar = () => {
 			<Nav>
 				<NavbarContainer>
 					<NavLogo to="/">
-						<NavIcon src="./assets/logo.png" alt="" />
+						<NavIcon src="./assets/music.png" alt="" />
 						Bandme
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>
