@@ -7,5 +7,5 @@
 3.Finalmente se debe correr el comando npm start para iniciar la aplicacion localmente
 ### `npm start`
 
-3. Abrir [http://localhost:3000] en el navegador
+3. Abrir [`http://localhost:3000`] en el navegador
 
